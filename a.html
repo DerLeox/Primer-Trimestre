@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" href="a.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Encuesta sobre herramientas
+        </h1>
+</header>
+<main>
+    <article>
+        <form action="#"method="post">
+            <fieldset>
+                <legend>Datos de la encuesta</legend>
+                <label for="estudiantes">Nombre del estudiate:</label>  
+                <input type="text" name="estudiate" id="estudiantes" required   >
+                <label for="nivel">Nivel academico</label>
+
+                <select name="nivel" id="nivel">
+                <option value="">Seleccione un nivel</option>
+                <option value="basica">Educacion basica</option>
+                <option value="bachillerato">Educacion bachillerato</option>
+                <option value="alta">Educacion alta</option>
+                </select>
+
+                <p>Conq frecuencia usa herramientas digitales </p>
+                <label for="">
+                    <input type="radio" name="Frecuencia" value="diario" required>
+                    Diariamente
+                </label>
+                <label for="">
+                    <input type="radio" name="Frecuencia" value="semanalmente">
+                    semanalmente
+                </label>
+                <p>Herramienta usada</p>
+                <label for="">
+                    <input type="checkbox" name="tools" value="class">
+                    Gogle
+                </label>
+                <label for="">
+                    <input type="checkbox" name="tools" value="class">
+                    Drive
+                </label>
+
+                <label for="comentarios">comentarios</label>
+                <textarea name="comentarios" id="comentarios" rows="4" placeholder="comente lo q sea"></textarea>
+                <button type="button">Enviar info</button>
+            </fieldset>
+        </form>
+    </article>
+</main>
+</body>
+</html>
